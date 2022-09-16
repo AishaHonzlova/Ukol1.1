@@ -1,0 +1,163 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+    background: url(background2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #cccbc6;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow:  0 55px 80px rgba(0, 0, 0, 0.1);
+}
+/******************************************************** Right Side ********************************************************************/
+
+.container .rightSide{
+    position: relative;
+    background: #cccbc6;
+    padding: 40px;
+    color: #1d1e23;
+    font-size: 18px;
+    font-weight:600;
+    border: 1px solid #1d1e23;
+}
+
+.rightSideTitle{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+}
+
+.education{
+    border-bottom: 1px solid #1d1e23;
+}
+
+.experience{
+    border-bottom: 1px solid #1d1e23;
+}
+
+.skills{
+    border-bottom: 1px solid #1d1e23;
+}
+
+.years{
+    font-size: 15px;
+}
+
+.experienceJob{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.languages .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:#1d1e23;
+    display: block;
+    margin-top: 5px;
+}
+
+.languages .percent div{
+   position: absolute; 
+   top: 0;
+   left: 0;
+   height: 100%;
+   background: #e0788e;
+}
+
+/******************************************************** Left side ********************************************************************/
+
+.container .leftSide{
+    position: relative;
+    background: #1d1e23;
+    padding: 40px;
+    color: #cccbc6;
+    
+    
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b3b2af;
+    
+}
+
+.profileText .profilePic{
+    position: relative;
+    width: 200px;
+    height: 230px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px #cccbc6;
+}
+
+.profileText h2{
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profileText span{
+    font-size: 0.8em;
+}
+
+
+.socialMediaLinks {
+    font-size: 20px;
+ 
+  }
+  
+  a {
+    color: #e0788e;
+  }
+  
+  a:visited {
+    color: #e0788e;
+  }
+  
+  a:hover {
+    color: #c32d4e;
+  }
+  
+  a:active {
+    color: #c32d4e;
+  }
+
+.redirectableLinks{
+    a:visited {
+        color: #cccbc6;
+        }
+      
+    a:hover {
+        color: #e0788e;
+        }
+      
+    a:active{
+        color: #c32d4e;
+        }
+    }
+
+
